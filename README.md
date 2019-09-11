@@ -16,5 +16,5 @@ A DE1-SoC board was used in this part
 ## Del 3
 Increment a 7-segment display by using a 4-bit counter and a push button:
 This program is also simulated using a testbench.
-![simulation result](/image files/VHDL_simulation.png)
+![simulation result](/image_files/VHDL_simulation.png)
 ## Del 4
