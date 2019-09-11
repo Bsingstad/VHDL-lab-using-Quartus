@@ -7,7 +7,7 @@ library IEEE;
       port (
 			--sw : in STD_logic_vector(3 downto 0);
 			--cout   :out std_logic_vector (3 downto 0); -- Output of the counter
-			hex : out STD_logic_vector(6 downto 0);
+			hex 		 : out STD_logic_vector(6 downto 0);
 			clk       : in std_logic;  -- 50 MHz clk
 			arst_n    : in std_logic;  -- external active low reset key0
 			ext_ena_n : in std_logic  -- external active low enable key1
@@ -23,13 +23,13 @@ library IEEE;
 	
 	 process (clk, arst_n, ext_ena_n) begin
             
-			if (arst_n = '1') then
+			if (arst_n = '0') then
 			
          	counter <= "0000"; --counter <= (others=>'0');
          
 			elsif (rising_edge(clk)) then
                 
-				if (ext_ena_n = '1') then
+				if (ext_ena_n = '0') then
 				
              	counter <= counter + 1;
             
@@ -43,7 +43,7 @@ library IEEE;
 	 process(counter)
 	 begin
 	 
-	 case counter is -- cout
+	 case counter is 
 		when "0000" =>
 		hex <= "1000000"; ---0
 		when "0001" =>
