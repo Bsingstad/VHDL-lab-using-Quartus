@@ -21,13 +21,13 @@ library IEEE;
 
     begin
 	
-	 process (clk, arst_n, ext_ena_n) begin
+	 process (clk, arst_n, ext_ena_n) begin 
             
 			if (arst_n = '0') then
 			
          	counter <= "0000"; --counter <= (others=>'0');
          
-			elsif (rising_edge(clk)) then
+			elsif clk = '1' and clk'event then  --elsif (rising_edge(clk)) then
                 
 				if (ext_ena_n = '0') then
 				

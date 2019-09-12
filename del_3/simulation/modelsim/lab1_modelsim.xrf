@@ -1,11 +1,12 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/Bjorn-JosteinSingsta/Documents/GitHub/FYS4220_2019_lab1/del_3/de10-lite-pinning.tcl
-source_file = 1, C:/Users/Bjorn-JosteinSingsta/Documents/GitHub/FYS4220_2019_lab1/del_3/src/lab1.vhd
+source_file = 1, C:/Users/bjornjjs/Documents/GitHub/FYS4220_2019_lab1/del_3/de10-lite-pinning.tcl
+source_file = 1, C:/Users/bjornjjs/Documents/GitHub/FYS4220_2019_lab1/del_3/src/lab1.vhd
+source_file = 1, C:/Users/bjornjjs/Documents/GitHub/FYS4220_2019_lab1/del_3/de10-lite.sdc
 source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
 source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_b.vhd
 source_file = 1, c:/intelfpga_lite/18.1/quartus/libraries/vhdl/ieee/timing_p.vhd
-source_file = 1, C:/Users/Bjorn-JosteinSingsta/Documents/GitHub/FYS4220_2019_lab1/del_3/db/lab1.cbx.xml
+source_file = 1, C:/Users/bjornjjs/Documents/GitHub/FYS4220_2019_lab1/del_3/db/lab1.cbx.xml
 design_name = hard_block
 design_name = lab1
 instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, lab1, 1

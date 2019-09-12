@@ -25,7 +25,7 @@
 		#key0 - used as reset
 		set_location_assignment PIN_B8 -to arst_n
 		#key1
-		set_location_assignment PIN_A7 -to key_n  
+		set_location_assignment PIN_A7 -to ext_ena_n  
 		
 
         #To avoid that the FPGA is driving an unintended value on pins that are not in use:
