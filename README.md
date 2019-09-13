@@ -3,7 +3,7 @@
 This lab was done using a DE1-SoC board to test programs made in Quartus.
 <figure>
   <img src="/image_files/fpga.jpg" alt="my alt text"/>
-  <figcaption>This is my caption text.</figcaption>
+  <figcaption> *Figure 1: DE1-SoC board* </figcaption>
 </figure>
 
 ![FPGA](/image_files/fpga.jpg)
@@ -18,6 +18,10 @@ The LEDs should turn on/off when the corresponding switch is turned on/off.
 **A 7-segment display:**
 This program displays numbers from 0 to 9 on a 7-segment display using 4 switches.
 The input, from the switches, is binary code so 0000 = 0, 0001 = 1. 0010 = 2 and so on.
+<figure>
+  <img src="/image_files/sevenSegment.png/">
+  <figcaption> *Figure 1: DE1-SoC board* </figcaption>
+</figure>
 
 ![Seven segment](/image_files/sevenSegment.png)
 
