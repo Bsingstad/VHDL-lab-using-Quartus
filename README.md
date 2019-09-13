@@ -18,7 +18,9 @@ This program displays numbers from 0 to 9 on a 7-segment display using 4 switche
 The input, from the switches, is binary code so 0000 = 0, 0001 = 1. 0010 = 2 and so on.
 <figure>
   <img src="/image_files/sevenSegment.png/">
-  <figcaption> <center><i><b>Figure 1:</b> 7-segment display</i></center> </figcaption>
+  <center> 
+  <figcaption><i><b>Figure 1:</b> 7-segment display</i></figcaption>
+  </center>
 </figure>
 
 
