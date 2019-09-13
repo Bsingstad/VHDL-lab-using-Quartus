@@ -2,7 +2,7 @@
 
 This lab was done using a DE1-SoC board to test programs made in Quartus.
 <figure>
-  <img src="{{site.url}}/image_files/fpga.jpg" alt="my alt text"/>
+  <img src="/image_files/fpga.jpg" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
 
