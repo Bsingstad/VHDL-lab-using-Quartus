@@ -1,10 +1,11 @@
 # FYS4220 Sanntids og embedded datasystemer 2019 lab1
 
 This lab was done using a DE1-SoC board to test programs made in Quartus.
-<p>
-    <img src="/image_files/sevenSegment.png" alt>
-    <em>image_caption</em>
-</p>
+<figure>
+  <img src="{{site.url}}/image_files/fpga.jpg" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+
 ![FPGA](/image_files/fpga.jpg)
 
 ## Part I
