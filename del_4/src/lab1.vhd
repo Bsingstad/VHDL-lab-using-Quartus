@@ -17,22 +17,25 @@ library IEEE;
 		  	  
     architecture Behavioral of lab1 is
 	 
-	 signal counter : std_logic_vector(3 downto 0); -- or use unsigned instead of logic vector and set to := "0000"
-
+	 signal counter 	: std_logic_vector(3 downto 0);	--counter that
+	 signal r0_input	: std_logic;	--internal signal for edge detector
+	 signal r1_input	: std_logic;	--internal signal for edge detector
     begin
 	
-	 process (clk, arst_n, ext_ena_n) begin
+	
+	
+	 process (clk, arst_n) begin 
             
 			if (arst_n = '0') then
 			
-         	counter <= "0000"; --counter <= (others=>'0');
+         	counter <= "0000";
          
-			elsif (rising_edge(clk)) then
-                
-				if (ext_ena_n = '0') then
-				
-             	counter <= counter + 1;
-            
+			elsif (rising_edge(clk)) then 
+				   r0_input           <= ext_ena_n;
+					r1_input           <= r0_input;
+            	if (r1_input='1' and r0_input='0') then	--rising edge detector
+						counter <= counter + 1;
+					
 				end if;
          
 			end if;
@@ -40,7 +43,7 @@ library IEEE;
 		  
 	 end process;
 		 
-	 process(counter)
+	 process(counter) 
 	 begin
 	 
 	 case counter is 

@@ -1,5 +1,5 @@
 Flow report for lab1
-Thu Sep 12 12:10:09 2019
+Fri Sep 13 14:11:18 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Sep 12 12:10:09 2019       ;
+; Flow Status                        ; Successful - Fri Sep 13 14:11:18 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab1                                        ;
 ; Top-level Entity Name              ; lab1                                        ;
@@ -66,7 +66,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/12/2019 12:09:44 ;
+; Start date & time ; 09/13/2019 14:10:49 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab1                ;
 +-------------------+---------------------+
@@ -77,7 +77,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 268525802469493.156828298407232        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 268525802469639.156837664910804        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                 ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -97,12 +97,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 724 MB              ; 00:00:19                           ;
-; Fitter               ; 00:00:06     ; 1.0                     ; 1690 MB             ; 00:00:09                           ;
-; Assembler            ; 00:00:02     ; 1.0                     ; 606 MB              ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 762 MB              ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 565 MB              ; 00:00:01                           ;
-; Total                ; 00:00:20     ; --                      ; --                  ; 00:00:34                           ;
+; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 725 MB              ; 00:00:19                           ;
+; Fitter               ; 00:00:09     ; 1.0                     ; 1689 MB             ; 00:00:11                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 603 MB              ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 762 MB              ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 562 MB              ; 00:00:01                           ;
+; Total                ; 00:00:25     ; --                      ; --                  ; 00:00:37                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -111,11 +111,11 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; fyspc-elg032     ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; fyspc-elg032     ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; fyspc-elg032     ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; fyspc-elg032     ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; fyspc-elg032     ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; fyspc-elg040     ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; fyspc-elg040     ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; fyspc-elg040     ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; fyspc-elg040     ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; fyspc-elg040     ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

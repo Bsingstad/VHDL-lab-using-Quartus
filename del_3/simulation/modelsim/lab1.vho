@@ -16,7 +16,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
--- DATE "09/12/2019 12:10:09"
+-- DATE "09/13/2019 14:11:18"
 
 -- 
 -- Device: Altera 10M50DAF484C7G Package FBGA484
@@ -89,7 +89,7 @@ USE IEEE.STD_LOGIC_1164.ALL;
 
 ENTITY 	lab1 IS
     PORT (
-	hex : BUFFER std_logic_vector(6 DOWNTO 0);
+	hex : OUT std_logic_vector(6 DOWNTO 0);
 	clk : IN std_logic;
 	arst_n : IN std_logic;
 	ext_ena_n : IN std_logic
