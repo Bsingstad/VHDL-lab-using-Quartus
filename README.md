@@ -46,7 +46,7 @@ In this program I added a synchronous edge detector to the program made in part 
 <figure>
   <img src="/image_files/edge_detect.JPG">
   <center> 
-  <figcaption><i><b>Figure 3:</b> Syncronisation and edge detection</i></figcaption>
+  <figcaption><i><b>Figure 4:</b> Syncronisation and edge detection</i></figcaption>
   </center>
 </figure>
 
