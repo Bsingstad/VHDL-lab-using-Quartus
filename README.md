@@ -1,5 +1,4 @@
-# FYS4220_2019_lab1
- Sanntids og embedded datasystemer
+# FYS4220 Sanntids og embedded datasystemer 2019 lab1
 
 ## Del 1
 My first VHDL/FPGA project:
@@ -18,3 +17,5 @@ Increment a 7-segment display by using a 4-bit counter and a push button:
 This program is also simulated using a testbench.
 ![simulation result](/image_files/VHDL_simulation.png)
 ## Del 4
+Synchronization and edge detection:
+
